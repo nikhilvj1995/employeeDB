@@ -1,6 +1,6 @@
 import { get } from './fetch';
 const getUsers = () => {
-    return get('/users');
+    return get();
 };
 const Api = {
     getUsers
